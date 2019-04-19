@@ -1,4 +1,4 @@
-package com.mr13.mr13petclinic;
+package mr13petclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
