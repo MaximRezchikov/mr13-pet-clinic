@@ -1,6 +1,6 @@
 package com.mr13.mr13petclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
