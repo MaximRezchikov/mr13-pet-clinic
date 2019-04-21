@@ -1,11 +1,11 @@
 package com.mr13.mr13petclinic.services.map;
 
 import com.mr13.mr13petclinic.model.Vet;
-import com.mr13.mr13petclinic.services.CrudService;
+import com.mr13.mr13petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     public Set<Vet> findAll() {
         return super.findAll();
