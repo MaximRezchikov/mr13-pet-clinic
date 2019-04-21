@@ -2,9 +2,11 @@ package com.mr13.mr13petclinic.services.map;
 
 import com.mr13.mr13petclinic.model.Vet;
 import com.mr13.mr13petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     public Set<Vet> findAll() {
