@@ -4,12 +4,12 @@ import com.mr13.mr13petclinic.model.Speciality;
 import com.mr13.mr13petclinic.repositories.SpecialtyRepository;
 import com.mr13.mr13petclinic.services.SpecialtyService;
 import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
-import javax.persistence.Entity;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+@Service
 @Profile("springdatajpa")
 public class SpecialtySDJpaService implements SpecialtyService {
 

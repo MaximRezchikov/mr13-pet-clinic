@@ -4,12 +4,12 @@ import com.mr13.mr13petclinic.model.Vet;
 import com.mr13.mr13petclinic.repositories.VetRepository;
 import com.mr13.mr13petclinic.services.VetService;
 import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
-import javax.persistence.Entity;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+@Service
 @Profile("sprigdatajpa")
 public class VetSDJpaService implements VetService {
 
